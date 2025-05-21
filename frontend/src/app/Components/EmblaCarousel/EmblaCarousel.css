@@ -1,0 +1,76 @@
+/* EmblaCarousel.css */
+
+.embla {
+  position: relative;
+  overflow: hidden;
+  width: 70%;
+  max-width: 1500px;
+  height: 50%;
+  z-index: 9;
+  border-radius: 15px;
+  /* box-shadow: 0 0 20px #024447d1; */
+  margin: 0 auto;
+  margin-top: 50px;
+
+}
+
+.embla__viewport {
+  overflow: hidden;
+  z-index: 9;
+  position: relative;
+ 
+}
+
+.embla__container {
+  display: flex;
+  z-index: 9;
+}
+
+
+.embla__slide {
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+  z-index: 9;
+  border-radius: 25px;
+}
+
+
+.embla__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 9;
+
+}
+
+.embla__prev,
+.embla__next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #2fccd16f;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  z-index: 10;
+  border-radius: 100px;
+}
+
+.embla__prev {
+  left: 10px;
+}
+
+.embla__next {
+  right: 10px;
+}
+
+.embla__prev.is-disabled,
+.embla__next.is-disabled {
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: not-allowed;
+}

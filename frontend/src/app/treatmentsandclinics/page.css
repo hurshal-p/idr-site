@@ -1,0 +1,59 @@
+.row {
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.row-3 > * {
+  width: 300px; /* adjust as needed */
+}
+
+.row-2 > * {
+  width: 300px;
+  margin-top: 3%;
+
+}
+
+.tctitle {
+    margin-top: -2%;
+    margin-bottom: 5%;
+}
+
+.tctitle2 {
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.grid2-wrapper {
+   margin-left: 6%;
+ 
+}
+
+.gycac {
+    background-color: rgba(47,203,209,0.2);
+}
+
+.overlay-container {
+  background-color: rgba(47, 203, 209, 0.2);
+  transform: translateY(40%);
+  height: 55vh; /* same as h-[320px] */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-box {
+  background-color: white;
+  width: 70vw;
+  max-width: 800px;
+  text-align: center;
+  padding: 90px;
+  border-radius: 0.5rem; /* approx rounded-lg */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* shadow-md */
+}
+
+.content-box .link {
+  color: #14b8a6; /* Tailwind teal-600 */
+  text-decoration: underline;
+}

@@ -1,0 +1,27 @@
+.hero {
+    width: 100%;            
+    height: 100vh;           
+    background-size: cover; 
+    background-position: center; 
+    position: relative;     
+    z-index: 0;
+    margin: 0;       
+    padding: 0;              
+  }
+  
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 118, 138, 0.666); 
+    top: 0;
+    left: 0;
+    z-index: 0; 
+    backdrop-filter: blur(20px);           
+  }
+  
+
+
+  

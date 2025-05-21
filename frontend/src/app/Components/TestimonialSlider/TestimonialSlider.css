@@ -1,0 +1,40 @@
+/* Target the arrows' SVG or pseudo-elements */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #186466; /* base color */
+  font-size: 1.875rem; /* 3xl size */
+  cursor: pointer;
+  position: absolute;
+  bottom: 0.75rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  z-index: 10;
+  transition: filter 0.3s ease;
+}
+
+/* The actual arrow icons are SVG backgrounds, so let's use filter to change color */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 1.875rem;
+  color: inherit; /* inherit color */
+}
+
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  filter: brightness(0.1);
+}
+
+/* Left arrow positioning */
+.swiper-button-prev {
+  left: 40%;
+  right: auto;
+  top: auto !important;
+}
+
+/* Right arrow positioning */
+.swiper-button-next {
+  right: 40%;
+  left: auto;
+  top: auto !important;
+}

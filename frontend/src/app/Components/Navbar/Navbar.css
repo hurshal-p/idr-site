@@ -1,0 +1,102 @@
+nav {
+    width: 100%;
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    z-index: 100;
+    transition: background 0.3s ease;
+    background: transparent;
+}
+
+.cornerlogo {
+    width: 8vw;
+    max-width: 40vw; 
+    transition: transform 0.3s ease-in-out;
+    cursor:pointer;
+}
+
+.cornerlogo:hover {
+    transform: scale(1.05);
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 20px;
+    color: #ffffff;
+    transition: 0.3s ease;
+    white-space: nowrap; 
+    cursor: pointer;
+    padding-top: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+nav ul li:hover {
+    color: #000000;
+    transform: scale(1.05);
+}
+
+
+.dark-nav {
+    background: #07839c;
+    
+}
+
+.dark-nav .button {
+    background-color: #5ba8b8;
+    
+}
+
+
+
+.navbar {
+    width: 100%;
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 100;
+    transition: background 0.3s ease;
+    background: transparent;
+}
+
+
+.navbar.dark-nav {
+    background: #07839c;
+}
+
+.navbar.dark-nav .button {
+    background-color: #5ba8b8;
+}
+
+.contact-btn {
+    padding: 10px 20px;
+    background-color: #5ba8b8;
+    border-radius: 40px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+nav ul li {
+    margin-top: 10px;
+    cursor: pointer;
+}

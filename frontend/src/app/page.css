@@ -1,0 +1,76 @@
+.hero {
+    z-index: 0;
+}
+
+p {
+
+    text-align: center;
+    
+}
+
+.mvvtext {
+    margin-top: 100px;
+}
+
+.daetd p {
+    font-size: x-large;
+}
+
+.contact-btn2 {
+    position: relative;
+    padding: 10px 20px;
+    background-color: #0000002d;
+    border-radius: 70px;
+    font-size: xx-large;
+    z-index: 100;
+   justify-content: center;
+    display: flex;
+    color: white;
+    transition:all 0.3s ease-in-out;
+    translate: 0 -500%;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+    animation: fadeInUp 0.5s ease-in-out both;
+    animation-delay: 2s;
+    
+    
+    
+}
+
+.contact-btn2:hover {
+    color: #000000;
+    /* transform: scale(1.05); */
+}
+
+.contactbtn2container button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(255, 255, 255, 0.114) 0px 0px 10px;
+    
+
+
+}
+
+.contactbtn2container {
+    transition: all 0.3s ease-in-out;
+}
+
+.contactbtn2container:hover {
+    transform: scale(1.05);
+    translate: 0 10px;
+
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
