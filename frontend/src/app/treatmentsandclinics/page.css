@@ -49,11 +49,12 @@
   max-width: 800px;
   text-align: center;
   padding: 90px;
-  border-radius: 0.5rem; /* approx rounded-lg */
+  border-radius: 0.5rem; 
   box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* shadow-md */
 }
 
 .content-box .link {
-  color: #14b8a6; /* Tailwind teal-600 */
+  color: #14b8a6;
   text-decoration: underline;
 }
+

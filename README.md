@@ -8,5 +8,8 @@ This includes:
 
 In code editor:
 1. Right click 'backend' folder and open integrated terminal. Type 'python3 manage.py runserver' to begin backend.
-2. Rigiht click 'frontend' folder and open intergrated terminal. Type 'npm run build', then 'npm run dev' to start the frontend server.
+    You can access 'http://127.0.0.1:8000/admin/' with the username and password both being 'mranderson', and view the backend form submissions.
+
+2. Right click 'frontend' folder and open intergrated terminal. Type 'npm run build', then 'npm run dev' to start the frontend server.
     Click the provided link (should be localhost:3000) to access.
+

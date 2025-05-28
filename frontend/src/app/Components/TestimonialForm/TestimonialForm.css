@@ -1,0 +1,33 @@
+form {
+    align-items: center;
+    padding: 1% 3%;
+    margin: 2% auto;
+}
+
+#textbox {
+    margin-bottom: 5%;
+}
+
+.testimonial-form-outer {
+  width: 100vw;              
+  display: flex;
+  justify-content: center;  
+  padding: 4rem 1rem;
+  background-color:#2fcbd131;
+ 
+}
+
+#testimonial-form-inner {
+  width: 100%;
+  max-width: 900px;
+  background: transparent;
+  padding: 2.5rem 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  background-color: rgb(255, 255, 255);
+}
+
+
+#leavetestimonialtext{
+    margin-bottom: 5%;
+}
