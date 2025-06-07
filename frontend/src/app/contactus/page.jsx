@@ -48,7 +48,7 @@ export default function ContactUs() {
     <div className="py-20 md:py-32" key="contactus">
       <Hero src="/images/contacthero.jpg" />
 
-      <div className="relative z-50 w-fusall px-4 sm:px-6 lg:px-10 max-w-full md:max-w-4xl  mt-10 md:mt-16 text-white translate-x-[10%] translate-y-[-70%] justify-center align-center rounded-lg text-2xl text-shadow-[2px_2px_4px_#186466]"> 
+      <div className="relative z-50 w-fusall px-4 sm:px-6 lg:px-10 max-w-full md:max-w-4xl  mt-10 md:mt-16 text-white translate-x-[50%] translate-y-[-110%] justify-center align-center rounded-lg text-2xl text-shadow-[2px_2px_4px_#186466]"> 
       
 
         <form className="space-y-6 md:space-y-8" onSubmit={handleSubmit}>
@@ -120,17 +120,7 @@ export default function ContactUs() {
   )}
  
 </div>
-<div id='contactinfo' className=" relative z-500 w-full md:w-1/3 bg-[#186466] bg-opacity-20 p-6 rounded-xl shadow-lg space-y-4 text-base md:text-lg mt-8">
-  <h3 className="text-2xl font-bold text-white mb-4">Contact Info</h3>
-  <p><strong>Address:</strong> 123 Placeholder Street,<br /> Mumbai, India</p><br />
-  <p><strong>Email:</strong> contact@example.com</p><br />
-  <p><strong>Phone:</strong> +91 98765 43210</p><br />
-  <p><strong>Working Hours:</strong><br /> Mon - Fri: 9AM – 6PM</p><br />
-  <p><strong>Follow us:</strong><br />
-    <a href="#" className="text-blue-300 hover:text-white">Instagram</a>,&nbsp;
-    <a href="#" className="text-blue-300 hover:text-white">LinkedIn</a>
-  </p>
-</div>
+
 
         </form>
 

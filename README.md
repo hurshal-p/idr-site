@@ -1,6 +1,6 @@
 INSTRUCTIONS TO RUN WEBSITE 
 
-Please download files 'backend' and 'frontend' and ensure Python, JavaScript, and required dependencies are installed.
+Download files 'backend' and 'frontend' and ensure Python, JavaScript, and required dependencies are installed.
 This includes:
 - TailwindCSS
 - Django,NextJS, ReactJS
