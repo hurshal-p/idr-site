@@ -13,4 +13,3 @@ In code editor:
 2. Right click 'frontend' folder and open intergrated terminal. Type 'npm run build', then 'npm run dev' to start the frontend server.
     Click the provided link (should be localhost:3000) to access.
 
-This is my local change + the remote update. 63d66a7f8c19a0fcf090e9ac0a04d3da146449ca
