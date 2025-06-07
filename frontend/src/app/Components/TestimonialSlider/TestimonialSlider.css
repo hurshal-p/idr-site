@@ -38,3 +38,7 @@
   left: auto;
   top: auto !important;
 }
+
+#testimonialstext {
+  font-size: 1.5rem;
+}

@@ -87,10 +87,10 @@ export default function TestimonialSlider({ testimonials }) {
         centeredSlides={shouldCenter}
       >
         {testimonials.map((t) => (
-          <SwiperSlide key={t.id} style={{ marginBottom: '3rem', width: 320 /* fixed width for slide */ }}>
-            <div className="testimonial-card">
-              <p className="text-lg leading-relaxed">"{t.message}"</p>
-              <p className="mt-6 font-semibold text-xl">- {t.name}</p>
+          <SwiperSlide key={t.id} style={{ marginBottom: '3rem', width: 400 /* fixed width for slide */ }}>
+            <div className="testimonial-card padding: 2rem">
+              <p id='testimonialstext'className="text-xl leading-relaxed">"{t.message}"</p>
+              <p id='testimonialstext' className="mt-6 font-semibold text-2xl">- {t.name}</p>
             </div>
           </SwiperSlide>
         ))}
