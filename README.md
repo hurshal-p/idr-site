@@ -13,3 +13,7 @@ In code editor:
 2. Right click 'frontend' folder and open intergrated terminal. Type 'npm run build', then 'npm run dev' to start the frontend server.
     Click the provided link (should be localhost:3000) to access.
 
+
+Commands for installation:
+npm install
+(in backend directory) pip install -r requirements.txt
