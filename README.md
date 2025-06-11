@@ -14,6 +14,17 @@ In code editor:
     Click the provided link (should be localhost:3000) to access.
 
 
-Commands for installation:
+Commands for installation ( things that need to be installed):
+
 npm install
-(in backend directory) pip install -r requirements.txt
+(in backend directory) 
+- pip install django
+- pip install -r requirements.txt
+- pip install django-extensions 
+- 
+
+(in frontend directory) npm install next@latest react@latest react-dom@latest –legacy-peer-deps
+
+
+ISSUES:
+- 
