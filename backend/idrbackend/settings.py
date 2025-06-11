@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'contact',
     'testimonials',
-    'django_extensions',
+    # 'django_extensions',
 ]
 
 MIDDLEWARE = [
