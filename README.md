@@ -27,4 +27,4 @@ npm install
 
 
 ISSUES:
-- 
+- if there is an error regarding "django-extensions": backend --> idrbackend --> settings.py --> `INSTALLED_APPS` --> uncomment 'django-extensions'
