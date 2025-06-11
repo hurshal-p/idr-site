@@ -86,10 +86,10 @@ export default function ContactUs() {
   };
 
   return (
-    <div className="py-20 md:py-32" key="contactus">
-      <Hero src="/images/contacthero.jpg" />
+    <div className="py-20 md:py-32 overflow-y-hidden h-screen fixed inset-0" key="contactus">
+      <Hero src="/images/contacthero.jpg" id='contactpghero' />
 
-      <div className="relative z-50 w-fusall px-4 sm:px-6 lg:px-10 max-w-full md:max-w-4xl  mt-10 md:mt-16 text-white  translate-x-[20vw] translate-y-[-110%] justify-center align-center rounded-lg text-2xl text-shadow-[2px_2px_4px_#186466]"> 
+      <div id='movecontactbox' className="left-1/2 transform -translate-x-1/2 relative z-50 w-fusall px-4 sm:px-6 lg:px-10 max-w-full md:max-w-4xl mt-10 md:mt-16 text-white translate-y-[-81vh] justify-center align-center rounded-lg text-2xl text-shadow-[2px_2px_4px_#186466]"> 
         <form className="space-y-6 md:space-y-8" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name" className="block text-lg md:text-xl font-semibold mb-2">
@@ -137,11 +137,11 @@ export default function ContactUs() {
               placeholder="Your message..."
               value={formData.message}
               onChange={handleChange}
-              className={`hover:scale-101 transition-all duration-200 resize-none w-full h-40% rounded-md bg-transparent px-4 md:px-6 py-3 md:py-4 text-white placeholder-gray-300 shadow-lg text-base md:text-xl focus:outline-none focus:ring-0 ${
+              className={`hover:scale-101 transition-all duration-200 resize-none w-full h-[25vh] rounded-md bg-transparent px-4 md:px-6 py-3 md:py-2 text-white placeholder-gray-300 shadow-lg text-base md:text-xl focus:outline-none focus:ring-0 ${
                 fieldErrors.message ? 'border border-red-500' : ''
               }`}
             />
-           s
+           
             <br/><br/> <br/>
           </div>
 

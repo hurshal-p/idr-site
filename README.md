@@ -13,3 +13,18 @@ In code editor:
 2. Right click 'frontend' folder and open intergrated terminal. Type 'npm run build', then 'npm run dev' to start the frontend server.
     Click the provided link (should be localhost:3000) to access.
 
+
+Commands for installation ( things that need to be installed):
+
+npm install
+(in backend directory) 
+- pip install django
+- pip install -r requirements.txt
+- pip install django-extensions 
+- 
+
+(in frontend directory) npm install next@latest react@latest react-dom@latest –legacy-peer-deps
+
+
+ISSUES:
+- if there is an error regarding "django-extensions": backend --> idrbackend --> settings.py --> `INSTALLED_APPS` --> uncomment 'django-extensions'

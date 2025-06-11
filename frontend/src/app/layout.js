@@ -4,7 +4,7 @@ import './globals.css'
 import Navbar from './Components/Navbar/Navbar'
 
 export const metadata = {
-  title: 'Your Site Title',
+  title: 'Indian Dental Retreat',
   description: 'Your Site Description',
 }
 

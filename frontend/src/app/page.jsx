@@ -21,14 +21,14 @@ const HomePage = () => {
 
         <div className="relative inset-0 z-10 flex items-center justify-center p-4">
         <h1 className="text-white  font-bold text-5xl
-                       [text-shadow:_2px_2px_4px_#186466] translate-y-[-35rem] text-center">
+                       [text-shadow:_2px_2px_4px_#186466] translate-y-[-65vh] text-center">
           Transforming smiles - a new era in dental tourism
         </h1>
         </div>
 
         
        <div className='daetd'><div className="relative justify-center flex items-center">
-  <div className="translate-y-[-30rem] text-white font-medium text-5xl [text-shadow:_2px_2px_4px_#186466] w-[60%] text-center">
+  <div className="translate-y-[-55vh] text-white font-medium text-5xl [text-shadow:_2px_2px_4px_#186466] w-[60%] text-center">
     <Paragraph content="Dentists are expensive these days. So save your money, and take a trip to India. Experience the beauty of the country all while undergoing treatment by some of the world's best dentists." />
   </div>
       </div>

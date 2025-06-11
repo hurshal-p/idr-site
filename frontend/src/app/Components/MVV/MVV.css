@@ -51,7 +51,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: #05768a8c;
+    background: #066879be;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -59,7 +59,7 @@
     flex-direction: column;
     cursor: pointer;
     opacity: 0;
-    width: 80.7%;
+    width: 81.3%;
     height: 100%;
     text-align: center;
     transition: 0.4s;
