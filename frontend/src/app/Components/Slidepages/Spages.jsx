@@ -27,7 +27,7 @@ const Spages = () => {
 
     const slideBackward = () => {
         if (tx >= 0) {
-            tx = -66.66; // Jump to last slide
+            tx = -66.66; 
         } else {
             tx += 33.33;
         }

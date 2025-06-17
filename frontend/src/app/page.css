@@ -74,3 +74,15 @@ p {
     transform: translateY(0);
   }
 }
+
+
+.whyindiatxt p {
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    background-color: #94e6e662;
+    padding: 100px;
+    font-size: 1.3rem;
+}

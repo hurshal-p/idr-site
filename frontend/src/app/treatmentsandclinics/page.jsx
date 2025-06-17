@@ -45,7 +45,7 @@ export default function treatmentsandclinics() {
 
 </div>
 
-<div className="tctitle2"><Title title="Choose your favourite city" subtitle={<a href="#done" className=" cursor-pointer transition-transform duration-300 hover:scale-105">What next?</a>} className='relative'/></div>
+<div className="tctitle2"><Title title="Explore our treatments" subtitle={<a href="#done" className=" cursor-pointer transition-transform duration-300 hover:scale-105">What next?</a>} className='relative'/></div>
 
 <div className="grid2-wrapper" id="treatments">
 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-25 mt-10 justify-center mx-auto">
@@ -149,7 +149,7 @@ export default function treatmentsandclinics() {
     <br/>
     <br/>
     <h1>
-      Perfect. On the <a href="/contactus" className="link">contact page</a>, send us a message detailing your city of choice, treatment and other preferences. We'll be in touch soon and set up a meeting. You're just a few steps away from achieving the perfect smile!
+      Perfect. On the <a id='contactlink' href="/contactus" className="link">contact page</a>, send us a message detailing your city of choice, treatment and other preferences. We'll be in touch soon and set up a meeting. You're just a few steps away from achieving the perfect smile!
     </h1>
   </div>
 </div>

@@ -6,7 +6,7 @@
 }
 
 .row-3 > * {
-  width: 300px; /* adjust as needed */
+  width: 300px; 
 }
 
 .row-2 > * {
@@ -37,7 +37,7 @@
 .overlay-container {
   background-color: rgba(47, 203, 209, 0.2);
   transform: translateY(40%);
-  height: 55vh; /* same as h-[320px] */
+  height: 55vh; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +50,7 @@
   text-align: center;
   padding: 90px;
   border-radius: 0.5rem; 
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* shadow-md */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .content-box .link {
@@ -58,3 +58,10 @@
   text-decoration: underline;
 }
 
+body.dark-theme .overlay-container {
+    background-color: #94e6e662;
+}
+
+body.dark-theme .content-box {
+    background-color: #558888;
+}

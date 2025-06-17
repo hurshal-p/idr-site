@@ -35,7 +35,7 @@ export default function TestimonialsPage() {
           id='whatourpatientssay'
           className="text-7xl font-bold text-shadow-[2px_2px_4px_#186466] text-white mb-12"
         >
-          What Our Patients Say
+           {testimonials.length} Patients Satisfied.
         </h1>
 
         <div className="w-full max-w-full px-4 md:px-8 lg:px-12 mx-auto overflow-hidden mb-16">

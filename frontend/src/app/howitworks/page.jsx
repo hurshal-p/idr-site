@@ -2,7 +2,7 @@ import Hero from "@/app/Components/Hero/Hero";
 import Image from "next/image";
 import Paragraph from "@/app/Components/Paragraph/Paragraph";
 import Spages from "@/app/Components/Slidepages/Spages";
-import './page.css'; // Import your CSS file here
+import './page.css'; 
 import Faq from "@/app/Components/FAQ/Faq";
 
 

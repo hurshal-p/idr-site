@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'tailwindcss';
 
@@ -33,3 +32,43 @@ html {
   scroll-behavior: smooth;
 }
 
+
+body.dark-theme {
+    background-color: #222222;
+    color: #ffffff; 
+}
+
+body.dark-theme h1,
+body.dark-theme h2,
+body.dark-theme h3,
+body.dark-theme h4,
+body.dark-theme h5,
+body.dark-theme h6,
+body.dark-theme .faqtitle h2
+ {
+    color: #ffffff; 
+}
+
+body.dark-theme p {
+    color: #ffffff; 
+}
+
+body.dark-theme contactlink {
+    color: black;  
+}
+
+body.dark-theme .faq {
+    background-color: #558888;
+}
+
+body.dark-theme .faqcontainer {
+    background-color: #457070;
+}
+
+body.dark-theme #leavetestimonialtext {
+   color: black;
+}
+
+body.dark-theme .testimonial-form-outer {
+   background-color: #589d9d;
+}

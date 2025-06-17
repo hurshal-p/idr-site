@@ -45,7 +45,10 @@ const HomePage = () => {
           <div className="mt-100"><EmblaCarousel/></div>
         <div className="mvvtext"><Title subtitle='MISSION, VISION AND VALUES' title='How we ensure quality dental service'/></div>
           <MVV/>
-          
+
+          <Title title='But why India?' subtitle='The Golden Sparrow' className='' />
+          <div className="whyindiatxt"><Paragraph className='' content={"Dental tourism is well-renowned in India for top-quality treatment and cultural enlightenment. India is posed to lead the global dental care sector. With an dentist-to-citizen ratio of 1:5000, they greatly surpass the WHO recommendation and that of many of the world's biggest nations. We exclusively recommend ISO-certified, accredited and verified clinics with positive reviews and anecdotal evidence, prioritising hygiene standards. Each clinic we suggest willl have English speaking staff and exceptional patient care."} />
+          </div>
     </div>
   );
 };

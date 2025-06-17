@@ -4,7 +4,7 @@ import Image from 'next/image';
 // import downarrow from '/images/chevron-down.svg';
 // import uparrow from '/images/chevron-up.svg';
 import './Faq.css';
-import { faqData } from './questions'; // Adjust path if needed
+import { faqData } from './questions';
 
 const Faq = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -30,7 +30,6 @@ const Faq = () => {
               </button>
             </div>
 
-            {/* Always rendered - just animate open/closed */}
             <div className={`faq-answer ${activeIndex === index ? 'open' : ''}`}>
               <p>{item.answer}</p>
             </div>

@@ -1,4 +1,4 @@
-nav {
+.navbar {
     width: 100%;
     padding: 4px 0;
     position: fixed;
@@ -11,6 +11,19 @@ nav {
     z-index: 100;
     transition: background 0.3s ease;
     background: transparent;
+}
+
+.navbar.navbar-scrolled { 
+    background: #07839c; 
+}
+
+.navbar.dark-mode-navbar {
+    background-color: transparent;
+    
+}
+
+.navbar.navbar-scrolled.dark-mode-navbar {
+    background: #253d42;
 }
 
 .cornerlogo {
@@ -29,6 +42,8 @@ nav ul {
     flex-wrap: wrap; 
     padding: 0;
     margin: 0;
+    position: relative;
+    z-index: 500;
 }
 
 nav ul li {
@@ -36,54 +51,34 @@ nav ul li {
     list-style: none;
     margin: 5px 20px;
     font-size: 20px;
-    color: #ffffff;
     transition: 0.3s ease;
     white-space: nowrap; 
     cursor: pointer;
     padding-top: 1rem;
     transition: transform 0.3s ease-in-out;
+    position: relative;
+    z-index: 500;
 }
 
 nav ul li:hover {
-    color: #000000;
     transform: scale(1.05);
 }
 
-
-.dark-nav {
-    background: #07839c;
-    
+.navbar ul li a {
+    color: #ffffff; 
+    text-decoration: none;
 }
 
-.dark-nav .button {
-    background-color: #5ba8b8;
-    
+.navbar ul li a:hover {
+    color: #000000;
 }
 
-
-
-.navbar {
-    width: 100%;
-    padding: 4px 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    z-index: 100;
-    transition: background 0.3s ease;
-    background: transparent;
+.navbar.dark-mode-navbar ul li a {
+    color: #ffffff !important; 
 }
 
-
-.navbar.dark-nav {
-    background: #07839c;
-}
-
-.navbar.dark-nav .button {
-    background-color: #5ba8b8;
+.navbar.dark-mode-navbar ul li a:hover {
+    color: #ffffff !important; 
 }
 
 .contact-btn {
@@ -93,14 +88,67 @@ nav ul li:hover {
     margin-top: -10px;
     margin-bottom: 10px;
     cursor: pointer;
-
+    color: white; 
+    border: none; 
+    transition: background-color 0.3s ease; 
 }
 
+.contact-btn:hover {
+    background-color: #4a9ca8;
+}
+
+.navbar.dark-mode-navbar .contact-btn {
+    background-color: #4e6b71;
+    color: #fff;
+}
+
+.navbar.dark-mode-navbar .contact-btn:hover {
+    background-color:  #3f5458;
+}
 
 nav ul li {
     margin-top: 10px;
     cursor: pointer;
     font-size: 20px;
-    
-   
+}
+
+.dark-mode-toggle-btn {
+    padding: 8px 15px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #333; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.dark-mode-toggle-btn:hover {
+    background-color: #ddd;
+}
+
+.navbar.dark-mode-navbar .dark-mode-toggle-btn {
+    background-color: #666;
+    color: #fff;
+}
+
+.navbar.dark-mode-navbar .dark-mode-toggle-btn:hover {
+    background-color: #888;
+}
+
+.dark-mode-toggle-btn svg {
+    width: 24px; 
+    height: 24px; 
+    stroke: currentColor; 
+}
+
+.dark-mode-toggle-btn svg {
+    color: #333; 
+}
+
+.navbar.dark-mode-navbar .dark-mode-toggle-btn svg {
+    color: #fff; 
 }
