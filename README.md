@@ -8,7 +8,9 @@ first, if node isn't already installed on your device: https://nodejs.org/en/dow
 - pip install -r requirements.txt
 - pip install django-extensions 
 
-(in frontend directory) npm install next@latest react@latest react-dom@latest –legacy-peer-deps
+(in frontend directory)
+- npm install next@latest react@latest react-dom@latest –legacy-peer-deps
+- npm install next react react-dom
 
 
 In code editor:
@@ -16,7 +18,7 @@ In code editor:
     You can access django-admin: 'http://127.0.0.1:8000/admin/' with the username and password both being 'mranderson', and view the backend form submissions.
 
 2. Right click 'frontend' folder and open intergrated terminal (or type cd frontend in normal terminal). Type 'npm run build', then 'npm run dev' to start the frontend server.
-    Click the provided link (should be localhost:3000) to access.
+    Click the provided link (should be localhost:3000) to access. 
 
 
 Commands for installation ( things that need to be installed):
@@ -34,3 +36,7 @@ npm install
 ISSUES:
 - if there is an error regarding "django-extensions": backend --> idrbackend --> settings.py --> `INSTALLED_APPS` --> uncomment 'django-extensions'
 
+if NextJS is not installed:
+npm install -g next
+or 
+npm i next

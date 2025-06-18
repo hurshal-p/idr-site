@@ -1,4 +1,4 @@
-'use client'; // Required if using App Router
+'use client';
 
 import { useEffect, useState } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';

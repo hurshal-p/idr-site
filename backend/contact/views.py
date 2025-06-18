@@ -18,7 +18,7 @@ def submit_contact(request):
         email = data.get('email')
         message = data.get('message')
 
-        # Save to DB
+        
         ContactSubmission.objects.create(name=name, email=email, message=message)
 
    

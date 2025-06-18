@@ -6,7 +6,7 @@ from .serializers import TestimonialSerializer
 @api_view(['GET', 'POST'])
 def testimonial_list(request):
     if request.method == 'GET':
-        testimonials = Testimonial.objects.all().order_by('-created_at')  # newest first
+        testimonials = Testimonial.objects.all().order_by('-created_at') 
         serializer = TestimonialSerializer(testimonials, many=True)
         return Response(serializer.data)
 

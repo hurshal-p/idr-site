@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import React, { useEffect, useState } from 'react'; // Corrected: Removed trailing comma
+import React, { useEffect, useState } from 'react'; 
 import './Navbar.css';
 import Link from 'next/link';
 import { useTheme } from '../../../contexts/ThemeContext'; 
